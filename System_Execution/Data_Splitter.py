@@ -11,7 +11,7 @@ import random
 from pathlib import Path
 
 # ========= CONFIG =========
-SRC_PATH = "Data/biohopr_1hop_filtered.json"     # input file (already filtered)
+SRC_PATH = "data/biohopr_1hop_filtered.json"     # input file (already filtered)
 DEV_PATH = "data/dev.json"         # output dev file
 TEST_PATH = "data/test.json"       # output test file
 DEV_RATIO = 0.4                    # 40% dev / 60% test
