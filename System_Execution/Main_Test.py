@@ -20,8 +20,8 @@ from Schema_Extractor import extract_schema, build_prompt
 # -----------------------------
 # CONFIG
 # -----------------------------
-CLEAN_DEV_PATH = "Data/clean_dev.json"
-CLEAN_TEST_PATH = "Data/clean_test.json"
+CLEAN_DEV_PATH = "data/clean_dev.json"
+CLEAN_TEST_PATH = "data/clean_test.json"
 MODEL_NAME = "prithivMLmods/Qwen-UMLS-7B-Instruct"
 CODER_MODEL_NAME = "/homeshare/abdelmoula/models/Qwen2.5-Coder-7B-Instruct"
 BIG_MODEL_NAME = "/homeshare/abdelmoula/models/Qwen2.5-Coder-32B-Instruct"
